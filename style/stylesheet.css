@@ -43,6 +43,38 @@ a:hover {
 
 /* Layout */
 
+header h1,
+h2 {
+  color: transparent;
+  font-size: 0;
+  position: relative;
+  text-align: center;
+  padding: 40px 0 0 0;
+}
+
+header h1 {
+  background-image: url(../images/logo.svg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+
+  -webkit-background-size: 104px 94px;
+  -moz-background-size: 104px 94px;
+  background-size: 104px 94px;
+  height: 104px;
+}
+
+header h2 {
+  background-image: url(../images/tagline.svg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+
+  -webkit-background-size: 281px 22px;
+  -moz-background-size: 281px 22px;
+  background-size: 281px 22px;
+  height: 22px;
+  padding: 0 0 0 0;
+}
+
 .main {
   width: 960px;
   margin: 0 auto;
@@ -112,6 +144,15 @@ a:hover {
   header h2 {
     background-image: url(../images/tagline-dark.svg);
   }
+
+  a {
+    color: #a4d6f7;
+    text-decoration: none;
+  }
+
+  a:visited {
+    color: #81afcd;
+  }
 }
 
 @media only screen and (max-width: 600px) {
@@ -123,9 +164,9 @@ a:hover {
     } */
 
   header h2 {
-    -webkit-background-size: 310px 19px;
-    -moz-background-size: 310px 19px;
-    background-size: 310px 19px;
+    -webkit-background-size: 281px 22px;
+    -moz-background-size: 281px 22px;
+    background-size: 281px 22px;
     height: 19px;
   }
 
