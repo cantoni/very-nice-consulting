@@ -124,6 +124,14 @@ header h2 {
   margin-top: 48px;
 }
 
+.divider {
+  text-align: center;
+  font-family: ui-monospace, "Inconsolata", "Menlo", monospace;
+  color: inherit;
+  /* opacity: 0.5; */
+  margin: 12px 0;
+}
+
 .app-lockup {
   display: flex;
   flex-direction: column;
