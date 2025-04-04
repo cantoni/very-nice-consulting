@@ -53,14 +53,14 @@ h2 {
 }
 
 header h1 {
-  background-image: url(../images/logo.svg);
+  background-image: url(../images/vnc-light.svg);
   background-repeat: no-repeat;
   background-position: 50% 50%;
 
-  -webkit-background-size: 101px 68px;
-  -moz-background-size: 101px 68px;
-  background-size: 101px 68px;
-  height: 68px;
+  -webkit-background-size: 128px 128px;
+  -moz-background-size: 128px 128px;
+  background-size: 128px 128px;
+  height: 128px;
   padding-top: 60px;
 }
 
@@ -215,7 +215,7 @@ header h2 {
   }
 
   header h1 {
-    background-image: url(../images/logo-dark.svg);
+    background-image: url(../images/vnc-dark.svg);
   }
 
   header h2 {
